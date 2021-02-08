@@ -1,0 +1,36 @@
+.menu {
+
+	position: fixed;
+	position: fixed;
+	background: white;
+	width: 100%;
+	margin-top: 0px;
+	top: 0px;
+	z-index: 10;
+}
+
+.links {
+	display: inline;
+	font-family: fantasy;
+	font-size: 20px;
+	padding-left: 33px;
+	padding-right: 20px;
+}
+
+
+
+.links:hover {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.effect {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+#media {
+	font-size: 48px;
+}
